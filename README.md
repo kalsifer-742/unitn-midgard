@@ -1,6 +1,7 @@
 # Midgard
 
-> :warning: Note that this is a university projects that depends on crates no longer publicly available. To see it in its full glory see ![this repository](https://github.com/Kalsifer-742/unitn-advanced-programming-demo)
+> [!WARNING]
+> Note that this is a university projects that depends on crates no longer publicly available. To see it in its full glory see ![this repository](https://github.com/Kalsifer-742/unitn-advanced-programming-demo)
 
 Midgard is a World Generation tool wich implements the `Generator trait` defined by `Robotic-Lib`
 
