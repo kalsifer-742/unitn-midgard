@@ -16,11 +16,13 @@ Midgard is a World Generation tool wich implements the `Generator trait` defined
 > Contents missing from the visualizer: `Bush`, `Bank`, `Building`, `Scarecrow`, `Jolly Block`
 
 ### Features:
-* Seed based generation.
+* Very fast
+  * thanks to good code and the use of the [rayon](https://crates.io/crates/rayon) crate, worlds are created in milliseconds
+* Seed based generation
     * All random elements of the world generation follow the provided seed and are independent of one another,
       meaning the world is 100% reproducible and tweaks to one part of the generation process won't influence 
       another.
-* Configurability.
+* Configurability
     * The `WorldGeneratorParameters` struct provides a convenient way to tweak the behaviour of the various
       stages of world generation without having to specify parameters irrelevant to your use case.
 * Fully documented, documentation visible with rustdoc.
